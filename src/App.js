@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
+// import CrystalPics from "./components/CrystalPictures";
+// import Scores from "./components/Scores";
+// import Header from "./components/Header"
+// import crystals from "./crystals.json";
+// import Data from "./components/HistoricData"
+// import Wrapper from "./components/Wrapper"
 import './App.css';
-
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <h1>We're going to turn this in to Crystal Collector</h1>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
